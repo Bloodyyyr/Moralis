@@ -1,0 +1,32 @@
+{
+  "jsc":
+  {
+    "transform":
+    {
+      "react": {
+        "pragma": "React.createElement",
+        "pragmaFrag": "React.Fragment",
+        "throwIfNamespace": true,
+        "development": false,
+        "useBuiltins": false
+      },
+      "optimizer": {
+        "globals": {
+          "vars": {
+            "__DEBUG__": "true"
+          }
+        }
+      }
+    },
+
+    "parser":
+      {
+      "syntax": "typescript",
+      "tsx": true,
+      "dynamicImport": true
+      },
+    "target": "es2020"
+  },
+  "minify": true,
+  "sourceMaps": true
+}

@@ -1,0 +1,22 @@
+
+{
+  "compilerOptions": {
+    "paths": {
+      "@components/*": ["components/*"],
+      "@Tailwind/*": ["components/Tailwind/*"],
+      "@UIElements/*": ["components/Tailwind/UIElements/*"],
+      "@Pages/*": ["components/Tailwind/Pages/*"],
+
+      "@MVCards/*": ["components/Tailwind/UIElements/MVCards/*"],
+      "@MVModal/*": ["components/Tailwind/UIElements/MVModal/*"],
+      "@MVNavBar/*": ["components/Tailwind/UIElements/MVNavBar/*"],
+      "@NFTPage/*": ["components/Tailwind/Pages/NFTPage/*"],
+
+      "@jsutils/*": ["utils/*"],
+      "@web3Jsutils/*": ["utils/web3/*"],
+
+      "@contracts/*": ["artifacts/contracts/*"],
+
+    }
+  }
+}
